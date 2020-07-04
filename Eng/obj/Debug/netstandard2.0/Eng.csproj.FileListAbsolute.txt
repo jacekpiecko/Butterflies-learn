@@ -1,0 +1,15 @@
+D:\jezyk programowania\C#\language fast\language fast\bin\Debug\jezyk\language fast\netstandard2.0\Eng.deps.json
+D:\jezyk programowania\C#\language fast\language fast\bin\Debug\jezyk\language fast\netstandard2.0\Eng.dll
+D:\jezyk programowania\C#\language fast\language fast\bin\Debug\jezyk\language fast\netstandard2.0\Eng.pdb
+D:\jezyk programowania\C#\language fast\Eng\obj\Debug\netstandard2.0\Eng.AssemblyInfoInputs.cache
+D:\jezyk programowania\C#\language fast\Eng\obj\Debug\netstandard2.0\Eng.AssemblyInfo.cs
+D:\jezyk programowania\C#\language fast\Eng\obj\Debug\netstandard2.0\Eng.csproj.CoreCompileInputs.cache
+D:\jezyk programowania\C#\language fast\Eng\obj\Debug\netstandard2.0\Eng.dll
+D:\jezyk programowania\C#\language fast\Eng\obj\Debug\netstandard2.0\Eng.pdb
+D:\jezyk programowania\C#\language fast\language fast\bin\Debug\jezyk\netstandard2.0\Eng.deps.json
+D:\jezyk programowania\C#\language fast\language fast\bin\Debug\jezyk\netstandard2.0\Eng.dll
+D:\jezyk programowania\C#\language fast\language fast\bin\Debug\jezyk\netstandard2.0\Eng.pdb
+D:\jezyk programowania\C#\language fast\Eng\bin\Debug\netstandard2.0\Eng.deps.json
+D:\jezyk programowania\C#\language fast\Eng\bin\Debug\netstandard2.0\Eng.dll
+D:\jezyk programowania\C#\language fast\Eng\bin\Debug\netstandard2.0\Eng.pdb
+D:\jezyk programowania\C#\language fast\Eng\obj\Debug\netstandard2.0\Eng.csprojAssemblyReference.cache
