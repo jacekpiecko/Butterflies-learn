@@ -217,11 +217,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jacek\\source\\repos\\jacekpiecko\\language-fast\\kontorla\\Kontorla.csproj",
+      "projectUniqueName": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\kontorla\\Kontorla.csproj",
       "projectName": "Kontorla",
-      "projectPath": "C:\\Users\\jacek\\source\\repos\\jacekpiecko\\language-fast\\kontorla\\Kontorla.csproj",
+      "projectPath": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\kontorla\\Kontorla.csproj",
       "packagesPath": "C:\\Users\\jacek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jacek\\source\\repos\\jacekpiecko\\language-fast\\kontorla\\obj\\",
+      "outputPath": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\kontorla\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -237,11 +237,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\jacek\\source\\repos\\jacekpiecko\\language-fast\\Eng\\Eng.csproj": {
-              "projectPath": "C:\\Users\\jacek\\source\\repos\\jacekpiecko\\language-fast\\Eng\\Eng.csproj"
+            "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\Eng\\Eng.csproj": {
+              "projectPath": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\Eng\\Eng.csproj"
             },
-            "C:\\Users\\jacek\\source\\repos\\jacekpiecko\\language-fast\\PLN\\PLN.csproj": {
-              "projectPath": "C:\\Users\\jacek\\source\\repos\\jacekpiecko\\language-fast\\PLN\\PLN.csproj"
+            "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\PLN\\PLN.csproj": {
+              "projectPath": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\PLN\\PLN.csproj"
             }
           }
         }

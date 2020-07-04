@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jacek\\source\\repos\\jacekpiecko\\language-fast\\Eng\\Eng.csproj": {}
+    "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\Eng\\Eng.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jacek\\source\\repos\\jacekpiecko\\language-fast\\Eng\\Eng.csproj": {
+    "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\Eng\\Eng.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jacek\\source\\repos\\jacekpiecko\\language-fast\\Eng\\Eng.csproj",
+        "projectUniqueName": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\Eng\\Eng.csproj",
         "projectName": "Eng",
-        "projectPath": "C:\\Users\\jacek\\source\\repos\\jacekpiecko\\language-fast\\Eng\\Eng.csproj",
+        "projectPath": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\Eng\\Eng.csproj",
         "packagesPath": "C:\\Users\\jacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jacek\\source\\repos\\jacekpiecko\\language-fast\\Eng\\obj\\",
+        "outputPath": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\Eng\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
