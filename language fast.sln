@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PLN", "PLN\PLN.csproj", "{4
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kontorla", "kontorla\Kontorla.csproj", "{24873894-6D71-4BDC-A1A1-402CA2EDBB92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dodatkowe", "Dodatkowe\Dodatkowe.csproj", "{BF5B3B32-FB22-4CA1-B726-E46D6989A783}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{24873894-6D71-4BDC-A1A1-402CA2EDBB92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24873894-6D71-4BDC-A1A1-402CA2EDBB92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24873894-6D71-4BDC-A1A1-402CA2EDBB92}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BF5B3B32-FB22-4CA1-B726-E46D6989A783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF5B3B32-FB22-4CA1-B726-E46D6989A783}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF5B3B32-FB22-4CA1-B726-E46D6989A783}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF5B3B32-FB22-4CA1-B726-E46D6989A783}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
