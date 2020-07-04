@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\jezyk programowania\\C#\\language fast\\PLN\\PLN.csproj",
+      "projectUniqueName": "C:\\Users\\jacek\\source\\repos\\jacekpiecko\\language-fast\\PLN\\PLN.csproj",
       "projectName": "PLN",
-      "projectPath": "D:\\jezyk programowania\\C#\\language fast\\PLN\\PLN.csproj",
+      "projectPath": "C:\\Users\\jacek\\source\\repos\\jacekpiecko\\language-fast\\PLN\\PLN.csproj",
       "packagesPath": "C:\\Users\\jacek\\.nuget\\packages\\",
-      "outputPath": "D:\\jezyk programowania\\C#\\language fast\\PLN\\obj\\",
+      "outputPath": "C:\\Users\\jacek\\source\\repos\\jacekpiecko\\language-fast\\PLN\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
