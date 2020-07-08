@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hq61mstT0kuLzhKZRgUbDoMVE5icI6q9+kOXQENrEYASrRf8GaqoU+kTwUGj0QMEdXlPYj3uTGqON/WfcJFdaw==",
+  "dgSpecHash": "piSm7hfT7uQhXnknh6TECYa9o4fSK6TzKSMZ9JYJuEmtXYOs1+fIX3BckeALyuFly2mMgwcC7/VtePemSekttA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\kontorla\\Kontorla.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\jacek\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\jacek\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

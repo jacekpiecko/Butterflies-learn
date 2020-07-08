@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b3fz+mnUDTK+AjePstPTf1eXtISgJuviLs2hfCJNKaGgWTp+MoOHXVCoeiKxUKyP01jcwXTPChxA2NwUC5OeyQ==",
+  "dgSpecHash": "azCGnuJ0N8/Y0MlE6R+14qZR2SH1k70dGhXZRwBZ6RhRM89gJOiiHWI0ZqzHMarvcDuaxBmgeL/RCNV/EIR8aA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\Eng\\Eng.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\jacek\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\jacek\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
