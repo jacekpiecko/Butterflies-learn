@@ -1,0 +1,9 @@
+C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\PLN\bin\Debug\netstandard2.1\PLN.deps.json
+C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\PLN\bin\Debug\netstandard2.1\PLN.dll
+C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\PLN\bin\Debug\netstandard2.1\PLN.pdb
+C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\PLN\obj\Debug\netstandard2.1\PLN.csprojAssemblyReference.cache
+C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\PLN\obj\Debug\netstandard2.1\PLN.AssemblyInfoInputs.cache
+C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\PLN\obj\Debug\netstandard2.1\PLN.AssemblyInfo.cs
+C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\PLN\obj\Debug\netstandard2.1\PLN.csproj.CoreCompileInputs.cache
+C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\PLN\obj\Debug\netstandard2.1\PLN.dll
+C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\PLN\obj\Debug\netstandard2.1\PLN.pdb

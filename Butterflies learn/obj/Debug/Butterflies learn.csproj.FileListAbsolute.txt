@@ -1,0 +1,10 @@
+C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\Butterflies learn\bin\Debug\Butterflies learn.exe.config
+C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\Butterflies learn\bin\Debug\Butterflies learn.exe
+C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\Butterflies learn\bin\Debug\Butterflies learn.pdb
+C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\Butterflies learn\obj\Debug\Butterflies learn.csprojAssemblyReference.cache
+C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\Butterflies learn\obj\Debug\Butterflies_learn.Butterflies_Learn.resources
+C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\Butterflies learn\obj\Debug\Butterflies_learn.Properties.Resources.resources
+C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\Butterflies learn\obj\Debug\Butterflies learn.csproj.GenerateResource.cache
+C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\Butterflies learn\obj\Debug\Butterflies learn.csproj.CoreCompileInputs.cache
+C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\Butterflies learn\obj\Debug\Butterflies learn.exe
+C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\Butterflies learn\obj\Debug\Butterflies learn.pdb

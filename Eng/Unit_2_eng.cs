@@ -193,18 +193,20 @@
                 case 180: return "thigh";
                 case 181: return "toe";
                 case 182: return "wrist";
+				default:
+                    break;
             }
             return null;
         }
         public string Slowa_dodakowie(int liczba)
         {
 
-            return null;
+            return liczba.ToString();
         }
         public string Zdania(int liczba)
         {
 
-            return null;
+            return liczba.ToString();
         }
     }
 }

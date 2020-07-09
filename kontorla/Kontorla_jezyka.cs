@@ -10,21 +10,17 @@ namespace Kontorla
 {
     public class Kontorla_jezyka
     {
-        private Unit_1_eng unit_1_Eng;
-        private Unit_1_eng_pl unit_1_Eng_Pl;
-        private Unit_2_eng_pl unit_2_Eng_Pl;
-        private Unit_2_eng unit_2_Eng;
+        private readonly Unit_1_eng unit_1_Eng;
+        private readonly Unit_1_eng_pl unit_1_Eng_Pl;
+        private readonly Unit_2_eng_pl unit_2_Eng_Pl;
+        private readonly Unit_2_eng unit_2_Eng;
 
 
-        private string teraz_jest_te_unit = null;
-        private int stara_random = 0;
-        private byte życię = 3;
+        private int stara_Random = 0;
         private byte dalej = 1;
-        private int liczba_punktu = 0;
-        private bool czy_kurs = false;
         //deklaracja Random;
-        private Random rd;
-        private string nazwa_kraju;
+        private readonly Random rd;
+        private readonly string nazwa_kraju;
         
         public Kontorla_jezyka()
 		{
@@ -37,14 +33,11 @@ namespace Kontorla
 
 
 
-        public int random { get; set; }
-		public int random_slowa { get; set; }
+        public int Random { get; set; }
+		public int Random_slowa { get; set; }
 		public void Radmon_Zmana(string kraj, string jaki_unit, ref Label Domyszni_jezyk, ref Label Inny_jezyk, ref Label domysli_liczba_punktuw)
 		{
             
-
-            //ustawan unit
-           teraz_jest_te_unit = jaki_unit;
 
             //wyberanie języki
             if (kraj == "eng")
@@ -53,46 +46,46 @@ namespace Kontorla
                 if (jaki_unit == "Unit 1")
                 {
 
-                    //daje randomowie opcje słowa
-                    random_slowa = rd.Next(0, dalej);
+                    //daje Randomowie opcje słowa
+                    Random_slowa = rd.Next(0, dalej);
 
                     //opcje słowa
-                    if (random_slowa == 0)
+                    if (Random_slowa == 0)
                     {
-                        //random zdanie i sprawdza czy zdanie nie jest takie samie
+                        //Random zdanie i sprawdza czy zdanie nie jest takie samie
                         do
                         {
-                            random = rd.Next(0, unit_1_Eng.liczba_slow + 1);
-                        } while (stara_random != random);
+                            Random = rd.Next(0, unit_1_Eng.liczba_slow + 1);
+                        } while (stara_Random != Random);
 
                         //ustawia słowo
-                        stara_random = random;
-                        Domyszni_jezyk.Text = unit_1_Eng_Pl.Slowa(random);
+                        stara_Random = Random;
+                        Domyszni_jezyk.Text = unit_1_Eng_Pl.Slowa(Random);
                     }
-                    else if (random_slowa == 2)
+                    else if (Random_slowa == 2)
                     {
-                        //random zdanie i sprawdza czy zdanie nie jest takie samie
+                        //Random zdanie i sprawdza czy zdanie nie jest takie samie
                         do
                         {
-                            random = rd.Next(0, unit_1_Eng.liczba_zdan + 1);
-                        } while (stara_random != random);
+                            Random = rd.Next(0, unit_1_Eng.liczba_zdan + 1);
+                        } while (stara_Random != Random);
 
                         //ustawia słowo
-                        stara_random = random;
-                        Domyszni_jezyk.Text = unit_1_Eng_Pl.Zdania(random);
+                        stara_Random = Random;
+                        Domyszni_jezyk.Text = unit_1_Eng_Pl.Zdania(Random);
                     }
-                    else if (random_slowa == 3)
+                    else if (Random_slowa == 3)
                     {
-                        //random zdanie i sprawdza czy zdanie nie jest takie samie
+                        //Random zdanie i sprawdza czy zdanie nie jest takie samie
                         do
                         {
-                            random = rd.Next(0, unit_1_Eng.liczba_dodakowych_slow + 1);
-                        } while (stara_random != random);
+                            Random = rd.Next(0, unit_1_Eng.liczba_dodakowych_slow + 1);
+                        } while (stara_Random != Random);
 
 
                         //ustawia słowo
-                        stara_random = random;
-                        Domyszni_jezyk.Text = unit_1_Eng_Pl.Slowa_dodakowie(random);
+                        stara_Random = Random;
+                        Domyszni_jezyk.Text = unit_1_Eng_Pl.Slowa_dodakowie(Random);
                     }
 
                     //sprawc ile jest punktu
@@ -102,20 +95,20 @@ namespace Kontorla
                     else if (dalej != 2 && Convert.ToInt32(domysli_liczba_punktuw) > 40) dalej--;
 
                     //spawca czy nie jest błąd
-                    if (random_slowa == 0)
+                    if (Random_slowa == 0)
                     {
-                        if (unit_1_Eng.Slowa(random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng numer błedu: 0001 numer:" + random.ToString();
-                        else if (unit_1_Eng_Pl.Slowa(random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng_pl numer błedu: 0001 numer:" + random.ToString();
+                        if (unit_1_Eng.Slowa(Random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng numer błedu: 0001 numer:" + Random.ToString();
+                        else if (unit_1_Eng_Pl.Slowa(Random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng_pl numer błedu: 0001 numer:" + Random.ToString();
                     }
-                    else if (random_slowa == 1)
+                    else if (Random_slowa == 1)
                     {
-                        if (unit_1_Eng.Zdania(random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng numer błedu: 0001 numer:" + random.ToString();
-                        else if (unit_1_Eng_Pl.Zdania(random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng_pl numer błedu: 0001 numer:" + random.ToString();
+                        if (unit_1_Eng.Zdania(Random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng numer błedu: 0001 numer:" + Random.ToString();
+                        else if (unit_1_Eng_Pl.Zdania(Random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng_pl numer błedu: 0001 numer:" + Random.ToString();
                     }
-                    else if (random_slowa == 2)
+                    else if (Random_slowa == 2)
                     {
-                        if (unit_1_Eng.Slowa_dodakowie(random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng numer błedu: 0001 numer:" + random.ToString();
-                        else if (unit_1_Eng_Pl.Slowa_dodakowie(random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng_pl numer błedu: 0001 numer:" + random.ToString();
+                        if (unit_1_Eng.Slowa_dodakowie(Random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng numer błedu: 0001 numer:" + Random.ToString();
+                        else if (unit_1_Eng_Pl.Slowa_dodakowie(Random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng_pl numer błedu: 0001 numer:" + Random.ToString();
                     }
 
                     return;
@@ -126,72 +119,71 @@ namespace Kontorla
 
                 od_nowa:
 
-                    //random słowo
-                    random = rd.Next(0, unit_1_Eng.liczba_slow + 1);
+                    //Random słowo
+                    Random = rd.Next(0, unit_1_Eng.liczba_slow + 1);
 
                     //czy słowo jest takie sam jak tamte
-                    if (stara_random == random) goto od_nowa;
+                    if (stara_Random == Random) goto od_nowa;
 
                     //ustawia słowo
-                    stara_random = random;
-                    Domyszni_jezyk.Text = unit_1_Eng.Slowa(random);
-                    Inny_jezyk.Text = unit_1_Eng_Pl.Slowa(random);
-                    czy_kurs = true;
+                    stara_Random = Random;
+                    Domyszni_jezyk.Text = unit_1_Eng.Slowa(Random);
+                    Inny_jezyk.Text = unit_1_Eng_Pl.Slowa(Random);
 
                     //spawca czy nie jest błąd
-                    if (unit_1_Eng.Slowa(random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng numer błedu: 0001 numer:" + random.ToString();
-                    else if (unit_1_Eng_Pl.Slowa(random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng_pl numer błedu: 0001 numer:" + random.ToString();
+                    if (unit_1_Eng.Slowa(Random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng numer błedu: 0001 numer:" + Random.ToString();
+                    else if (unit_1_Eng_Pl.Slowa(Random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng_pl numer błedu: 0001 numer:" + Random.ToString();
 
 
                     return;
                 }
                 else if (jaki_unit == "Unit 2")
                 {
-                    //daje randomowie opcje słowa
-                    random_slowa = rd.Next(0, dalej);
+                    //daje Randomowie opcje słowa
+                    Random_slowa = rd.Next(0, dalej);
 
                     //opcje słowa
-                    if (random_slowa == 0)
+                    if (Random_slowa == 0)
                     {
                     od_nowa:
 
-                        //random słowo
-                        random = rd.Next(0, unit_2_Eng.liczba_slow + 1);
+                        //Random słowo
+                        Random = rd.Next(0, unit_2_Eng.liczba_slow + 1);
 
                         //czy słowo jest takie sam jak tamte
-                        if (stara_random == random) goto od_nowa;
+                        if (stara_Random == Random) goto od_nowa;
 
                         //ustawia słowo
-                        stara_random = random;
-                        Domyszni_jezyk.Text = unit_2_Eng_Pl.Slowa(random);
+                        stara_Random = Random;
+                        Domyszni_jezyk.Text = unit_2_Eng_Pl.Slowa(Random);
                     }
-                    else if (random_slowa == 2)
+                    else if (Random_slowa == 2)
                     {
                     od_nowa:
 
-                        //random zdanie
-                        random = rd.Next(0, unit_2_Eng.liczba_zdan + 1);
+                        //Random zdanie
+                        Random = rd.Next(0, unit_2_Eng.liczba_zdan + 1);
 
                         //czy zdanie jest takie sam jak tamte
-                        if (stara_random == random) goto od_nowa;
+                        if (stara_Random == Random) goto od_nowa;
 
                         //ustawia słowo
-                        stara_random = random;
-                        Domyszni_jezyk.Text = unit_2_Eng_Pl.Zdania(random);
+                        stara_Random = Random;
+                        Domyszni_jezyk.Text = unit_2_Eng_Pl.Zdania(Random);
                     }
-                    else if (random_slowa == 3)
+                    else if (Random_slowa == 3)
                     {
                     od_nowa:
 
-                        //random słowo
-                        random = rd.Next(0, unit_2_Eng.liczba_dodakowych_slow + 1);
+                        //Random słowo
+                        Random = rd.Next(0, unit_2_Eng.liczba_dodakowych_slow + 1);
 
                         //czy słowo jest takie sam jak tamte
-                        if (stara_random == random) goto od_nowa;
+                        if (stara_Random == Random) goto od_nowa;
 
                         //ustawia słowo
-                        stara_random = random;
-                        Domyszni_jezyk.Text = unit_2_Eng_Pl.Slowa_dodakowie(random);
+                        stara_Random = Random;
+                        Domyszni_jezyk.Text = unit_2_Eng_Pl.Slowa_dodakowie(Random);
                     }
 
                     //sprawc ile jest punktu
@@ -201,20 +193,20 @@ namespace Kontorla
                     else if (dalej != 3 && Convert.ToInt32(domysli_liczba_punktuw.Text) > 40) dalej--;
 
                     //spawca czy nie jest błąd
-                    if (random_slowa == 0)
+                    if (Random_slowa == 0)
                     {
-                        if (unit_2_Eng.Slowa(random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng numer błedu: 0001 numer:" + random.ToString();
-                        else if (unit_2_Eng_Pl.Slowa(random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng_pl numer błedu: 0001 numer:" + random.ToString();
+                        if (unit_2_Eng.Slowa(Random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng numer błedu: 0001 numer:" + Random.ToString();
+                        else if (unit_2_Eng_Pl.Slowa(Random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng_pl numer błedu: 0001 numer:" + Random.ToString();
                     }
-                    else if (random_slowa == 1)
+                    else if (Random_slowa == 1)
                     {
-                        if (unit_2_Eng.Zdania(random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng numer błedu: 0001 numer:" + random.ToString();
-                        else if (unit_2_Eng_Pl.Zdania(random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng_pl numer błedu: 0001 numer:" + random.ToString();
+                        if (unit_2_Eng.Zdania(Random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng numer błedu: 0001 numer:" + Random.ToString();
+                        else if (unit_2_Eng_Pl.Zdania(Random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng_pl numer błedu: 0001 numer:" + Random.ToString();
                     }
-                    else if (random_slowa == 2)
+                    else if (Random_slowa == 2)
                     {
-                        if (unit_2_Eng.Slowa_dodakowie(random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng numer błedu: 0001 numer:" + random.ToString();
-                        else if (unit_2_Eng_Pl.Slowa_dodakowie(random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng_pl numer błedu: 0001 numer:" + random.ToString();
+                        if (unit_2_Eng.Slowa_dodakowie(Random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng numer błedu: 0001 numer:" + Random.ToString();
+                        else if (unit_2_Eng_Pl.Slowa_dodakowie(Random) == " ") Domyszni_jezyk.Text = "error Unit_1_eng_pl numer błedu: 0001 numer:" + Random.ToString();
                     }
 
                     return;
