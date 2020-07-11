@@ -32,10 +32,10 @@
 			this.Start = new System.Windows.Forms.Button();
 			this.Start_POL = new System.Windows.Forms.PictureBox();
 			this.Start_ENG = new System.Windows.Forms.PictureBox();
-			this.pictureBox4 = new System.Windows.Forms.PictureBox();
-			this.hajs = new System.Windows.Forms.Label();
-			this.pictureBox5 = new System.Windows.Forms.PictureBox();
-			this.hajs_dodakowa = new System.Windows.Forms.Label();
+			this.Obrazek_Hajsu = new System.Windows.Forms.PictureBox();
+			this.Hajs = new System.Windows.Forms.Label();
+			this.Obrazek_Hajs_Dodakowa = new System.Windows.Forms.PictureBox();
+			this.Hajs_Dodakowa = new System.Windows.Forms.Label();
 			this.Exit = new System.Windows.Forms.Button();
 			this.Grupa_Menu = new System.Windows.Forms.FlowLayoutPanel();
 			this.Grupa_Menu_Flag = new System.Windows.Forms.FlowLayoutPanel();
@@ -56,10 +56,16 @@
 			this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
 			this.Cena_Za_Angielski = new System.Windows.Forms.Label();
 			this.Cena_ZA_Polski = new System.Windows.Forms.Label();
+			this.Slowo_do_napisania = new System.Windows.Forms.Label();
+			this.Lista_zadan = new System.Windows.Forms.FlowLayoutPanel();
+			this.Zadanie_1 = new System.Windows.Forms.Label();
+			this.Zadanie_2 = new System.Windows.Forms.Label();
+			this.Zadanie_1_cena = new System.Windows.Forms.Label();
+			this.Zadanie_2_cena = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.Start_POL)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.Start_ENG)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Obrazek_Hajsu)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Obrazek_Hajs_Dodakowa)).BeginInit();
 			this.Grupa_Menu.SuspendLayout();
 			this.Grupa_Menu_Flag.SuspendLayout();
 			this.Gruba_Startowa.SuspendLayout();
@@ -68,6 +74,7 @@
 			((System.ComponentModel.ISupportInitialize)(this.Serce_2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.Serce_3)).BeginInit();
 			this.tableLayoutPanel1.SuspendLayout();
+			this.Lista_zadan.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// Start
@@ -101,41 +108,41 @@
 			this.Start_ENG.TabStop = false;
 			this.Start_ENG.Click += new System.EventHandler(this.Start_ENG_Click);
 			// 
-			// pictureBox4
+			// Obrazek_Hajsu
 			// 
-			this.pictureBox4.Location = new System.Drawing.Point(3, 3);
-			this.pictureBox4.Name = "pictureBox4";
-			this.pictureBox4.Size = new System.Drawing.Size(25, 25);
-			this.pictureBox4.TabIndex = 14;
-			this.pictureBox4.TabStop = false;
+			this.Obrazek_Hajsu.Location = new System.Drawing.Point(3, 3);
+			this.Obrazek_Hajsu.Name = "Obrazek_Hajsu";
+			this.Obrazek_Hajsu.Size = new System.Drawing.Size(25, 25);
+			this.Obrazek_Hajsu.TabIndex = 14;
+			this.Obrazek_Hajsu.TabStop = false;
 			// 
-			// hajs
+			// Hajs
 			// 
-			this.hajs.AutoSize = true;
-			this.hajs.Location = new System.Drawing.Point(50, 10);
-			this.hajs.Margin = new System.Windows.Forms.Padding(3, 10, 3, 0);
-			this.hajs.Name = "hajs";
-			this.hajs.Size = new System.Drawing.Size(13, 13);
-			this.hajs.TabIndex = 13;
-			this.hajs.Text = "0";
+			this.Hajs.AutoSize = true;
+			this.Hajs.Location = new System.Drawing.Point(50, 10);
+			this.Hajs.Margin = new System.Windows.Forms.Padding(3, 10, 3, 0);
+			this.Hajs.Name = "Hajs";
+			this.Hajs.Size = new System.Drawing.Size(13, 13);
+			this.Hajs.TabIndex = 13;
+			this.Hajs.Text = "0";
 			// 
-			// pictureBox5
+			// Obrazek_Hajs_Dodakowa
 			// 
-			this.pictureBox5.Location = new System.Drawing.Point(187, 3);
-			this.pictureBox5.Name = "pictureBox5";
-			this.pictureBox5.Size = new System.Drawing.Size(25, 25);
-			this.pictureBox5.TabIndex = 15;
-			this.pictureBox5.TabStop = false;
+			this.Obrazek_Hajs_Dodakowa.Location = new System.Drawing.Point(187, 3);
+			this.Obrazek_Hajs_Dodakowa.Name = "Obrazek_Hajs_Dodakowa";
+			this.Obrazek_Hajs_Dodakowa.Size = new System.Drawing.Size(25, 25);
+			this.Obrazek_Hajs_Dodakowa.TabIndex = 15;
+			this.Obrazek_Hajs_Dodakowa.TabStop = false;
 			// 
-			// hajs_dodakowa
+			// Hajs_Dodakowa
 			// 
-			this.hajs_dodakowa.AutoSize = true;
-			this.hajs_dodakowa.Location = new System.Drawing.Point(223, 10);
-			this.hajs_dodakowa.Margin = new System.Windows.Forms.Padding(3, 10, 3, 0);
-			this.hajs_dodakowa.Name = "hajs_dodakowa";
-			this.hajs_dodakowa.Size = new System.Drawing.Size(13, 13);
-			this.hajs_dodakowa.TabIndex = 16;
-			this.hajs_dodakowa.Text = "0";
+			this.Hajs_Dodakowa.AutoSize = true;
+			this.Hajs_Dodakowa.Location = new System.Drawing.Point(223, 10);
+			this.Hajs_Dodakowa.Margin = new System.Windows.Forms.Padding(3, 10, 3, 0);
+			this.Hajs_Dodakowa.Name = "Hajs_Dodakowa";
+			this.Hajs_Dodakowa.Size = new System.Drawing.Size(13, 13);
+			this.Hajs_Dodakowa.TabIndex = 16;
+			this.Hajs_Dodakowa.Text = "0";
 			// 
 			// Exit
 			// 
@@ -192,6 +199,7 @@
 			this.Gruba_Startowa.Controls.Add(this.Liczba_Punktu, 3, 1);
 			this.Gruba_Startowa.Controls.Add(this.Slownik, 2, 0);
 			this.Gruba_Startowa.Controls.Add(this.Czas, 3, 2);
+			this.Gruba_Startowa.Controls.Add(this.Slowo_do_napisania, 1, 0);
 			this.Gruba_Startowa.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.Gruba_Startowa.Location = new System.Drawing.Point(0, 151);
 			this.Gruba_Startowa.Name = "Gruba_Startowa";
@@ -296,9 +304,10 @@
 			this.Slownik.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
 			this.Slownik.Location = new System.Drawing.Point(580, 0);
 			this.Slownik.Name = "Slownik";
-			this.Slownik.Size = new System.Drawing.Size(71, 18);
+			this.Slownik.Size = new System.Drawing.Size(40, 18);
 			this.Slownik.TabIndex = 14;
-			this.Slownik.Text = "słownik - ";
+			this.Slownik.Text = "tekst";
+			this.Slownik.Visible = false;
 			// 
 			// Czas
 			// 
@@ -321,10 +330,10 @@
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 74.5946F));
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 36F));
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-			this.tableLayoutPanel1.Controls.Add(this.pictureBox4, 0, 0);
-			this.tableLayoutPanel1.Controls.Add(this.hajs, 1, 0);
-			this.tableLayoutPanel1.Controls.Add(this.pictureBox5, 2, 0);
-			this.tableLayoutPanel1.Controls.Add(this.hajs_dodakowa, 3, 0);
+			this.tableLayoutPanel1.Controls.Add(this.Obrazek_Hajsu, 0, 0);
+			this.tableLayoutPanel1.Controls.Add(this.Hajs, 1, 0);
+			this.tableLayoutPanel1.Controls.Add(this.Obrazek_Hajs_Dodakowa, 2, 0);
+			this.tableLayoutPanel1.Controls.Add(this.Hajs_Dodakowa, 3, 0);
 			this.tableLayoutPanel1.Location = new System.Drawing.Point(504, 4);
 			this.tableLayoutPanel1.Name = "tableLayoutPanel1";
 			this.tableLayoutPanel1.RowCount = 1;
@@ -359,16 +368,77 @@
 			this.Cena_ZA_Polski.Text = "zablokowany";
 			this.Cena_ZA_Polski.Visible = false;
 			// 
+			// Slowo_do_napisania
+			// 
+			this.Slowo_do_napisania.AutoSize = true;
+			this.Slowo_do_napisania.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+			this.Slowo_do_napisania.Location = new System.Drawing.Point(303, 0);
+			this.Slowo_do_napisania.Name = "Slowo_do_napisania";
+			this.Slowo_do_napisania.Size = new System.Drawing.Size(40, 18);
+			this.Slowo_do_napisania.TabIndex = 15;
+			this.Slowo_do_napisania.Text = "tekst";
+			// 
+			// Lista_zadan
+			// 
+			this.Lista_zadan.Controls.Add(this.Zadanie_1);
+			this.Lista_zadan.Controls.Add(this.Zadanie_1_cena);
+			this.Lista_zadan.Controls.Add(this.Zadanie_2);
+			this.Lista_zadan.Controls.Add(this.Zadanie_2_cena);
+			this.Lista_zadan.Location = new System.Drawing.Point(20, 15);
+			this.Lista_zadan.Name = "Lista_zadan";
+			this.Lista_zadan.Size = new System.Drawing.Size(93, 104);
+			this.Lista_zadan.TabIndex = 3;
+			this.Lista_zadan.Visible = false;
+			// 
+			// Zadanie_1
+			// 
+			this.Zadanie_1.AutoSize = true;
+			this.Zadanie_1.Location = new System.Drawing.Point(3, 0);
+			this.Zadanie_1.Name = "Zadanie_1";
+			this.Zadanie_1.Size = new System.Drawing.Size(35, 13);
+			this.Zadanie_1.TabIndex = 0;
+			this.Zadanie_1.Text = "label1";
+			this.Zadanie_1.Click += new System.EventHandler(this.Zadanie_1_Click);
+			// 
+			// Zadanie_2
+			// 
+			this.Zadanie_2.AutoSize = true;
+			this.Zadanie_2.Location = new System.Drawing.Point(3, 13);
+			this.Zadanie_2.Name = "Zadanie_2";
+			this.Zadanie_2.Size = new System.Drawing.Size(35, 13);
+			this.Zadanie_2.TabIndex = 1;
+			this.Zadanie_2.Text = "label2";
+			// 
+			// Zadanie_1_cena
+			// 
+			this.Zadanie_1_cena.AutoSize = true;
+			this.Zadanie_1_cena.Location = new System.Drawing.Point(44, 0);
+			this.Zadanie_1_cena.Name = "Zadanie_1_cena";
+			this.Zadanie_1_cena.Size = new System.Drawing.Size(35, 13);
+			this.Zadanie_1_cena.TabIndex = 2;
+			this.Zadanie_1_cena.Text = "label1";
+			this.Zadanie_1_cena.Click += new System.EventHandler(this.Zadanie_1_Click);
+			// 
+			// Zadanie_2_cena
+			// 
+			this.Zadanie_2_cena.AutoSize = true;
+			this.Zadanie_2_cena.Location = new System.Drawing.Point(44, 13);
+			this.Zadanie_2_cena.Name = "Zadanie_2_cena";
+			this.Zadanie_2_cena.Size = new System.Drawing.Size(35, 13);
+			this.Zadanie_2_cena.TabIndex = 3;
+			this.Zadanie_2_cena.Text = "label2";
+			// 
 			// Butterflies_Learn
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 262);
-			this.Controls.Add(this.Cena_ZA_Polski);
 			this.Controls.Add(this.tableLayoutPanel1);
-			this.Controls.Add(this.Cena_Za_Angielski);
+			this.Controls.Add(this.Lista_zadan);
 			this.Controls.Add(this.Cofny);
 			this.Controls.Add(this.Gruba_Startowa);
+			this.Controls.Add(this.Cena_ZA_Polski);
+			this.Controls.Add(this.Cena_Za_Angielski);
 			this.Controls.Add(this.Grupa_Menu);
 			this.Controls.Add(this.Grupa_Menu_Flag);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -378,8 +448,8 @@
 			this.Load += new System.EventHandler(this.Butterflies_Learn_Load);
 			((System.ComponentModel.ISupportInitialize)(this.Start_POL)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.Start_ENG)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Obrazek_Hajsu)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Obrazek_Hajs_Dodakowa)).EndInit();
 			this.Grupa_Menu.ResumeLayout(false);
 			this.Grupa_Menu_Flag.ResumeLayout(false);
 			this.Gruba_Startowa.ResumeLayout(false);
@@ -390,6 +460,8 @@
 			((System.ComponentModel.ISupportInitialize)(this.Serce_3)).EndInit();
 			this.tableLayoutPanel1.ResumeLayout(false);
 			this.tableLayoutPanel1.PerformLayout();
+			this.Lista_zadan.ResumeLayout(false);
+			this.Lista_zadan.PerformLayout();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -400,10 +472,10 @@
 		private System.Windows.Forms.Button Start;
 		private System.Windows.Forms.PictureBox Start_POL;
 		private System.Windows.Forms.PictureBox Start_ENG;
-		private System.Windows.Forms.PictureBox pictureBox4;
-		private System.Windows.Forms.Label hajs;
-		private System.Windows.Forms.PictureBox pictureBox5;
-		private System.Windows.Forms.Label hajs_dodakowa;
+		private System.Windows.Forms.PictureBox Obrazek_Hajsu;
+		private System.Windows.Forms.Label Hajs;
+		private System.Windows.Forms.PictureBox Obrazek_Hajs_Dodakowa;
+		private System.Windows.Forms.Label Hajs_Dodakowa;
 		private System.Windows.Forms.Button Exit;
 		private System.Windows.Forms.FlowLayoutPanel Grupa_Menu;
 		private System.Windows.Forms.FlowLayoutPanel Grupa_Menu_Flag;
@@ -424,6 +496,12 @@
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
 		private System.Windows.Forms.Label Cena_Za_Angielski;
 		private System.Windows.Forms.Label Cena_ZA_Polski;
+		private System.Windows.Forms.Label Slowo_do_napisania;
+		private System.Windows.Forms.FlowLayoutPanel Lista_zadan;
+		private System.Windows.Forms.Label Zadanie_1;
+		private System.Windows.Forms.Label Zadanie_2;
+		private System.Windows.Forms.Label Zadanie_1_cena;
+		private System.Windows.Forms.Label Zadanie_2_cena;
 	}
 }
 

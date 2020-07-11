@@ -37,7 +37,7 @@ namespace Butterflies_learn.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
         public bool Kuponie_angielski {
             get {
                 return ((bool)(this["Kuponie_angielski"]));
@@ -56,6 +56,42 @@ namespace Butterflies_learn.Properties {
             }
             set {
                 this["Kuponie_Polska"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public string Pieniadzie {
+            get {
+                return ((string)(this["Pieniadzie"]));
+            }
+            set {
+                this["Pieniadzie"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Unity_1_kup {
+            get {
+                return ((bool)(this["Unity_1_kup"]));
+            }
+            set {
+                this["Unity_1_kup"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Unity_2_kup {
+            get {
+                return ((bool)(this["Unity_2_kup"]));
+            }
+            set {
+                this["Unity_2_kup"] = value;
             }
         }
     }
