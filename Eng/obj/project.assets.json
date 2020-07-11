@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\Eng\\Eng.csproj",
+      "projectUniqueName": "D:\\jezyk programowania\\C#\\Butterflies-learn\\Eng\\Eng.csproj",
       "projectName": "Eng",
-      "projectPath": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\Eng\\Eng.csproj",
+      "projectPath": "D:\\jezyk programowania\\C#\\Butterflies-learn\\Eng\\Eng.csproj",
       "packagesPath": "C:\\Users\\jacek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\Eng\\obj\\",
+      "outputPath": "D:\\jezyk programowania\\C#\\Butterflies-learn\\Eng\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jacek\\AppData\\Roaming\\NuGet\\NuGet.Config",

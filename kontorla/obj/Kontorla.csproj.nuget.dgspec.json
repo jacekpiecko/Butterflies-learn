@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\kontorla\\Kontorla.csproj": {}
+    "D:\\jezyk programowania\\C#\\Butterflies-learn\\kontorla\\Kontorla.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\Eng\\Eng.csproj": {
+    "D:\\jezyk programowania\\C#\\Butterflies-learn\\Eng\\Eng.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\Eng\\Eng.csproj",
+        "projectUniqueName": "D:\\jezyk programowania\\C#\\Butterflies-learn\\Eng\\Eng.csproj",
         "projectName": "Eng",
-        "projectPath": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\Eng\\Eng.csproj",
+        "projectPath": "D:\\jezyk programowania\\C#\\Butterflies-learn\\Eng\\Eng.csproj",
         "packagesPath": "C:\\Users\\jacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\Eng\\obj\\",
+        "outputPath": "D:\\jezyk programowania\\C#\\Butterflies-learn\\Eng\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,14 +56,14 @@
         }
       }
     },
-    "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\kontorla\\Kontorla.csproj": {
+    "D:\\jezyk programowania\\C#\\Butterflies-learn\\kontorla\\Kontorla.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\kontorla\\Kontorla.csproj",
+        "projectUniqueName": "D:\\jezyk programowania\\C#\\Butterflies-learn\\kontorla\\Kontorla.csproj",
         "projectName": "Kontorla",
-        "projectPath": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\kontorla\\Kontorla.csproj",
+        "projectPath": "D:\\jezyk programowania\\C#\\Butterflies-learn\\kontorla\\Kontorla.csproj",
         "packagesPath": "C:\\Users\\jacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\kontorla\\obj\\",
+        "outputPath": "D:\\jezyk programowania\\C#\\Butterflies-learn\\kontorla\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,11 +79,11 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\Eng\\Eng.csproj": {
-                "projectPath": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\Eng\\Eng.csproj"
+              "D:\\jezyk programowania\\C#\\Butterflies-learn\\Eng\\Eng.csproj": {
+                "projectPath": "D:\\jezyk programowania\\C#\\Butterflies-learn\\Eng\\Eng.csproj"
               },
-              "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\PLN\\PLN.csproj": {
-                "projectPath": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\PLN\\PLN.csproj"
+              "D:\\jezyk programowania\\C#\\Butterflies-learn\\PLN\\PLN.csproj": {
+                "projectPath": "D:\\jezyk programowania\\C#\\Butterflies-learn\\PLN\\PLN.csproj"
               }
             }
           }
@@ -115,14 +115,14 @@
         }
       }
     },
-    "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\PLN\\PLN.csproj": {
+    "D:\\jezyk programowania\\C#\\Butterflies-learn\\PLN\\PLN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\PLN\\PLN.csproj",
+        "projectUniqueName": "D:\\jezyk programowania\\C#\\Butterflies-learn\\PLN\\PLN.csproj",
         "projectName": "PLN",
-        "projectPath": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\PLN\\PLN.csproj",
+        "projectPath": "D:\\jezyk programowania\\C#\\Butterflies-learn\\PLN\\PLN.csproj",
         "packagesPath": "C:\\Users\\jacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jacek\\Source\\Repos\\jacekpiecko\\language-fast\\PLN\\obj\\",
+        "outputPath": "D:\\jezyk programowania\\C#\\Butterflies-learn\\PLN\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jacek\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -8,3 +8,13 @@ C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\Butterflies learn\obj\Debu
 C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\Butterflies learn\obj\Debug\Butterflies learn.csproj.CoreCompileInputs.cache
 C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\Butterflies learn\obj\Debug\Butterflies learn.exe
 C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\Butterflies learn\obj\Debug\Butterflies learn.pdb
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\bin\Debug\Butterflies learn.exe.config
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\bin\Debug\Butterflies learn.exe
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\bin\Debug\Butterflies learn.pdb
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\obj\Debug\Butterflies learn.csprojAssemblyReference.cache
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\obj\Debug\Butterflies_learn.Butterflies_Learn.resources
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\obj\Debug\Butterflies_learn.Properties.Resources.resources
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\obj\Debug\Butterflies learn.csproj.GenerateResource.cache
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\obj\Debug\Butterflies learn.csproj.CoreCompileInputs.cache
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\obj\Debug\Butterflies learn.exe
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\obj\Debug\Butterflies learn.pdb
