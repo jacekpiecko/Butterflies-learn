@@ -121,7 +121,7 @@
 			// 
 			// pictureBox5
 			// 
-			this.pictureBox5.Location = new System.Drawing.Point(188, 3);
+			this.pictureBox5.Location = new System.Drawing.Point(187, 3);
 			this.pictureBox5.Name = "pictureBox5";
 			this.pictureBox5.Size = new System.Drawing.Size(25, 25);
 			this.pictureBox5.TabIndex = 15;
@@ -130,7 +130,7 @@
 			// hajs_dodakowa
 			// 
 			this.hajs_dodakowa.AutoSize = true;
-			this.hajs_dodakowa.Location = new System.Drawing.Point(224, 10);
+			this.hajs_dodakowa.Location = new System.Drawing.Point(223, 10);
 			this.hajs_dodakowa.Margin = new System.Windows.Forms.Padding(3, 10, 3, 0);
 			this.hajs_dodakowa.Name = "hajs_dodakowa";
 			this.hajs_dodakowa.Size = new System.Drawing.Size(13, 13);
@@ -183,7 +183,7 @@
 			this.Gruba_Startowa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.02156F));
 			this.Gruba_Startowa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.97844F));
 			this.Gruba_Startowa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 144F));
-			this.Gruba_Startowa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 77F));
+			this.Gruba_Startowa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 78F));
 			this.Gruba_Startowa.Controls.Add(this.Sprawc, 1, 2);
 			this.Gruba_Startowa.Controls.Add(this.TlumaczeniePrzezUrzytkowinka, 1, 1);
 			this.Gruba_Startowa.Controls.Add(this.Inny_jezyk, 0, 1);
@@ -205,7 +205,7 @@
 			// 
 			// Sprawc
 			// 
-			this.Sprawc.Location = new System.Drawing.Point(304, 81);
+			this.Sprawc.Location = new System.Drawing.Point(303, 81);
 			this.Sprawc.Name = "Sprawc";
 			this.Sprawc.Size = new System.Drawing.Size(78, 27);
 			this.Sprawc.TabIndex = 3;
@@ -216,7 +216,7 @@
 			// TlumaczeniePrzezUrzytkowinka
 			// 
 			this.TlumaczeniePrzezUrzytkowinka.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-			this.TlumaczeniePrzezUrzytkowinka.Location = new System.Drawing.Point(304, 31);
+			this.TlumaczeniePrzezUrzytkowinka.Location = new System.Drawing.Point(303, 31);
 			this.TlumaczeniePrzezUrzytkowinka.Multiline = true;
 			this.TlumaczeniePrzezUrzytkowinka.Name = "TlumaczeniePrzezUrzytkowinka";
 			this.TlumaczeniePrzezUrzytkowinka.Size = new System.Drawing.Size(177, 32);
@@ -237,7 +237,7 @@
 			// dodawanie_hajsu
 			// 
 			this.dodawanie_hajsu.AutoSize = true;
-			this.dodawanie_hajsu.Location = new System.Drawing.Point(581, 88);
+			this.dodawanie_hajsu.Location = new System.Drawing.Point(580, 88);
 			this.dodawanie_hajsu.Margin = new System.Windows.Forms.Padding(3, 10, 3, 0);
 			this.dodawanie_hajsu.Name = "dodawanie_hajsu";
 			this.dodawanie_hajsu.Size = new System.Drawing.Size(13, 13);
@@ -249,7 +249,7 @@
 			this.Grupa_serca.Controls.Add(this.Serce_1);
 			this.Grupa_serca.Controls.Add(this.Serce_2);
 			this.Grupa_serca.Controls.Add(this.Serce_3);
-			this.Grupa_serca.Location = new System.Drawing.Point(581, 31);
+			this.Grupa_serca.Location = new System.Drawing.Point(580, 31);
 			this.Grupa_serca.Name = "Grupa_serca";
 			this.Grupa_serca.Size = new System.Drawing.Size(138, 44);
 			this.Grupa_serca.TabIndex = 7;
@@ -284,7 +284,7 @@
 			// Liczba_Punktu
 			// 
 			this.Liczba_Punktu.AutoSize = true;
-			this.Liczba_Punktu.Location = new System.Drawing.Point(725, 28);
+			this.Liczba_Punktu.Location = new System.Drawing.Point(724, 28);
 			this.Liczba_Punktu.Name = "Liczba_Punktu";
 			this.Liczba_Punktu.Size = new System.Drawing.Size(13, 13);
 			this.Liczba_Punktu.TabIndex = 4;
@@ -294,7 +294,7 @@
 			// 
 			this.Slownik.AutoSize = true;
 			this.Slownik.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-			this.Slownik.Location = new System.Drawing.Point(581, 0);
+			this.Slownik.Location = new System.Drawing.Point(580, 0);
 			this.Slownik.Name = "Slownik";
 			this.Slownik.Size = new System.Drawing.Size(71, 18);
 			this.Slownik.TabIndex = 14;
@@ -303,7 +303,7 @@
 			// Czas
 			// 
 			this.Czas.AutoSize = true;
-			this.Czas.Location = new System.Drawing.Point(725, 78);
+			this.Czas.Location = new System.Drawing.Point(724, 78);
 			this.Czas.Name = "Czas";
 			this.Czas.Size = new System.Drawing.Size(22, 13);
 			this.Czas.TabIndex = 5;
@@ -320,7 +320,7 @@
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.40541F));
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 74.5946F));
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 58F));
+			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 59F));
 			this.tableLayoutPanel1.Controls.Add(this.pictureBox4, 0, 0);
 			this.tableLayoutPanel1.Controls.Add(this.hajs, 1, 0);
 			this.tableLayoutPanel1.Controls.Add(this.pictureBox5, 2, 0);
@@ -374,6 +374,7 @@
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.Name = "Butterflies_Learn";
 			this.Text = "Butterflies learn";
+			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Butterflies_Learn_FormClosed);
 			this.Load += new System.EventHandler(this.Butterflies_Learn_Load);
 			((System.ComponentModel.ISupportInitialize)(this.Start_POL)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.Start_ENG)).EndInit();

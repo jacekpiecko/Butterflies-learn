@@ -7,3 +7,12 @@ C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\PLN\obj\Debug\netstandard2
 C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\PLN\obj\Debug\netstandard2.1\PLN.csproj.CoreCompileInputs.cache
 C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\PLN\obj\Debug\netstandard2.1\PLN.dll
 C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\PLN\obj\Debug\netstandard2.1\PLN.pdb
+D:\jezyk programowania\C#\Butterflies-learn\PLN\bin\Debug\netstandard2.1\PLN.deps.json
+D:\jezyk programowania\C#\Butterflies-learn\PLN\bin\Debug\netstandard2.1\PLN.dll
+D:\jezyk programowania\C#\Butterflies-learn\PLN\bin\Debug\netstandard2.1\PLN.pdb
+D:\jezyk programowania\C#\Butterflies-learn\PLN\obj\Debug\netstandard2.1\PLN.csprojAssemblyReference.cache
+D:\jezyk programowania\C#\Butterflies-learn\PLN\obj\Debug\netstandard2.1\PLN.AssemblyInfoInputs.cache
+D:\jezyk programowania\C#\Butterflies-learn\PLN\obj\Debug\netstandard2.1\PLN.AssemblyInfo.cs
+D:\jezyk programowania\C#\Butterflies-learn\PLN\obj\Debug\netstandard2.1\PLN.csproj.CoreCompileInputs.cache
+D:\jezyk programowania\C#\Butterflies-learn\PLN\obj\Debug\netstandard2.1\PLN.dll
+D:\jezyk programowania\C#\Butterflies-learn\PLN\obj\Debug\netstandard2.1\PLN.pdb

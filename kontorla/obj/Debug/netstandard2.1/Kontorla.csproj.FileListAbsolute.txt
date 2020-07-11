@@ -18,3 +18,23 @@ C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\kontorla\obj\Debug\netstan
 C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\kontorla\obj\Debug\netstandard2.1\Kontorla.csproj.CopyComplete
 C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\kontorla\obj\Debug\netstandard2.1\Kontorla.dll
 C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\kontorla\obj\Debug\netstandard2.1\Kontorla.pdb
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\bin\Debug\netstandard2.1\Kontorla.deps.json
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\bin\Debug\netstandard2.1\Kontorla.dll
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\bin\Debug\netstandard2.1\Kontorla.pdb
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\bin\Debug\netstandard2.1\Eng.dll
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\bin\Debug\netstandard2.1\PLN.dll
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\bin\Debug\netstandard2.1\System.Windows.Forms.dll
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\bin\Debug\netstandard2.1\System.Security.dll
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\bin\Debug\netstandard2.1\System.Configuration.dll
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\bin\Debug\netstandard2.1\Accessibility.dll
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\bin\Debug\netstandard2.1\System.Deployment.dll
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\bin\Debug\netstandard2.1\System.Runtime.Serialization.Formatters.Soap.dll
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\bin\Debug\netstandard2.1\Eng.pdb
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\bin\Debug\netstandard2.1\PLN.pdb
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\obj\Debug\netstandard2.1\Kontorla.csprojAssemblyReference.cache
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\obj\Debug\netstandard2.1\Kontorla.AssemblyInfoInputs.cache
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\obj\Debug\netstandard2.1\Kontorla.AssemblyInfo.cs
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\obj\Debug\netstandard2.1\Kontorla.csproj.CoreCompileInputs.cache
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\obj\Debug\netstandard2.1\Kontorla.csproj.CopyComplete
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\obj\Debug\netstandard2.1\Kontorla.dll
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\obj\Debug\netstandard2.1\Kontorla.pdb

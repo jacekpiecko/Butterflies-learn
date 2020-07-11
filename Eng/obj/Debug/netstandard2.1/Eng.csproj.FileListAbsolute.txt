@@ -7,3 +7,12 @@ C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\Eng\obj\Debug\netstandard2
 C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\Eng\obj\Debug\netstandard2.1\Eng.dll
 C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\Eng\obj\Debug\netstandard2.1\Eng.pdb
 C:\Users\jacek\Source\Repos\jacekpiecko\language-fast\Eng\obj\Debug\netstandard2.1\Eng.csprojAssemblyReference.cache
+D:\jezyk programowania\C#\Butterflies-learn\Eng\bin\Debug\netstandard2.1\Eng.deps.json
+D:\jezyk programowania\C#\Butterflies-learn\Eng\bin\Debug\netstandard2.1\Eng.dll
+D:\jezyk programowania\C#\Butterflies-learn\Eng\bin\Debug\netstandard2.1\Eng.pdb
+D:\jezyk programowania\C#\Butterflies-learn\Eng\obj\Debug\netstandard2.1\Eng.csprojAssemblyReference.cache
+D:\jezyk programowania\C#\Butterflies-learn\Eng\obj\Debug\netstandard2.1\Eng.AssemblyInfoInputs.cache
+D:\jezyk programowania\C#\Butterflies-learn\Eng\obj\Debug\netstandard2.1\Eng.AssemblyInfo.cs
+D:\jezyk programowania\C#\Butterflies-learn\Eng\obj\Debug\netstandard2.1\Eng.csproj.CoreCompileInputs.cache
+D:\jezyk programowania\C#\Butterflies-learn\Eng\obj\Debug\netstandard2.1\Eng.dll
+D:\jezyk programowania\C#\Butterflies-learn\Eng\obj\Debug\netstandard2.1\Eng.pdb

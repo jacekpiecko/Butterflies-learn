@@ -13,18 +13,16 @@ namespace Butterflies_learn
 {
 	public partial class Butterflies_Learn : Form
 	{
-		private  XVC xVC;
 		/// <summary>
 		/// przed właczeniem aplikacji
 		/// </summary>
 		public Butterflies_Learn()
 		{
-			// ustawia setting
-			 xVC = new XVC();
 
 			InitializeComponent();
 		}
-
+		private readonly  Dictionary<string, bool> Instalacja_flag = new Dictionary<string, bool>();
+		private readonly int Cena = Properties.Settings.Default.Cena;
 
 		private void Pokaz_ceny(bool Czy_pokazac)
 		{
@@ -89,9 +87,10 @@ namespace Butterflies_learn
 			{
 
 			}
-			else if (Cena_Za_Angielski.Text == "free")
+			else if (Cena_Za_Angielski.Text == "Free")
 			{
-				xVC.Kuponie_angielski = true;
+				Instalacja_flag["Kup_Ang"] = true;
+				Cena_Za_Angielski.Text = "Start";
 			}
 		}
 		/// <summary>
@@ -101,11 +100,12 @@ namespace Butterflies_learn
 		/// <param name="e"></param>
 		private void Butterflies_Learn_Load(object sender, EventArgs e)
 		{
-			
-
+			//odczytuje waltorzy z fl
+			Instalacja_flag["Kup_Ang"] = Properties.Settings.Default.Kuponie_angielski;
+			Instalacja_flag["Kup_Pol"] = Properties.Settings.Default.Kuponie_Polska;
 			// Ustawnia cenie
 			#region cena
-			if (xVC.cena == 0)
+			if (Cena == 0)
 			{
 				Cena_Za_Angielski.Text = "free";
 			}
@@ -114,14 +114,21 @@ namespace Butterflies_learn
 			//ustawia kuponie flagi
 			#region kuponie
 			//ustawia cenie angielskiego
-			if (xVC.Kuponie_angielski == true)
+			if (Instalacja_flag["Kup_Ang"] == true)
 				Cena_Za_Angielski.Text = "Start";
-			else if (xVC.Czy_był_kupony > 0)
-				Cena_Za_Angielski.Text = (xVC.Czy_był_kupony * 500).ToString();
+			else if (Cena > 0)
+				Cena_Za_Angielski.Text = (Cena* 500).ToString();
 			else
 				Cena_Za_Angielski.Text = "Free";
 
 			#endregion
+		}
+
+		private void Butterflies_Learn_FormClosed(object sender, FormClosedEventArgs e)
+		{
+			Properties.Settings.Default.Kuponie_angielski =  Instalacja_flag["Kup_Ang"];
+			Properties.Settings.Default.Kuponie_Polska = Instalacja_flag["Kup_Pol"];
+			Properties.Settings.Default.Save();
 		}
 	}
 }
