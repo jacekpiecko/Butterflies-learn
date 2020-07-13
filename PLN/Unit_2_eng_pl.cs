@@ -1,7 +1,7 @@
 ﻿namespace PLN
 {
-    public class Unit_2_eng_pl
-    {
+	public class Unit_2_eng_pl
+	{
 
 		public string Slowa(int liczba)
 		{

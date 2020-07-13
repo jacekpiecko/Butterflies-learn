@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Text;
-
-namespace PLN
+﻿namespace PLN
 {
-   public  class Unit_1_eng_pl
-    {
-        public string Slowa(int liczba)
-        {
+	public class Unit_1_eng_pl
+	{
+		public string Slowa(int liczba)
+		{
 			switch (liczba)
 			{
 				case 0:
@@ -467,54 +462,54 @@ namespace PLN
 			return null;
 		}
 		public string Slowa_dodakowie(int liczba)
-        {
-            switch (liczba)
-            {
-                case 0:
-                    return "przyrodni sąsiad";
-                case 1:
-                    return "przyrodni syn";
+		{
+			switch (liczba)
+			{
+				case 0:
+					return "przyrodni sąsiad";
+				case 1:
+					return "przyrodni syn";
 				default:
 					break;
-            }
-            return null;
-        }
-        public string Zdania(int liczba)
-        {
-            switch (liczba)
-            {
-                case 0:
-                    return "ja idem do szkoły";
-                case 1:
-                    return "ogładam telewizję";
-                case 2:
-                    return "ja ucze się gotować";
-                case 3:
-                    return "ja nie pracuje";
-                case 4:
-                    return "ona idzie do szkoły ";
-                case 5:
-                    return "on ogląda telewizję";
-                case 6:
-                    return "ona uczy się gotować";
-                case 7:
-                    return "on nie pracuje";
-                case 8:
-                    return "mam na imię";
-                case 9:
-                    return "Miłó cię poznać";
-                case 10:
-                    return "w której jesteś w klasie?";
-                case 11:
-                    return "Czy znasz  ją";
-                case 12:
-                    return "Skąd jesteś?";
-                case 13:
+			}
+			return null;
+		}
+		public string Zdania(int liczba)
+		{
+			switch (liczba)
+			{
+				case 0:
+					return "ja idem do szkoły";
+				case 1:
+					return "ogładam telewizję";
+				case 2:
+					return "ja ucze się gotować";
+				case 3:
+					return "ja nie pracuje";
+				case 4:
+					return "ona idzie do szkoły ";
+				case 5:
+					return "on ogląda telewizję";
+				case 6:
+					return "ona uczy się gotować";
+				case 7:
+					return "on nie pracuje";
+				case 8:
+					return "mam na imię";
+				case 9:
+					return "Miłó cię poznać";
+				case 10:
+					return "w której jesteś w klasie?";
+				case 11:
+					return "Czy znasz  ją";
+				case 12:
+					return "Skąd jesteś?";
+				case 13:
 					return "Słucham muzyki";
 				default:
 					break;
-            }
-            return null;
-        }
+			}
+			return null;
+		}
 	}
 }

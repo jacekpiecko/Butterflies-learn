@@ -1,5 +1,5 @@
-﻿using System.Windows.Forms;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Windows.Forms;
 
 namespace Butterflies_learn
 {
@@ -12,7 +12,7 @@ namespace Butterflies_learn
 			this.Zadanie = Zadanie;
 			this.Jezyk = Jezyk;
 		}
-		internal  void Ustaw_Tekst(ref Label Zadanie_1, ref Label cena1, ref Label Zadanie_2, ref Label cena2)
+		internal void Ustaw_Tekst(ref Label Zadanie_1, ref Label cena1, ref Label Zadanie_2, ref Label cena2)
 		{
 			if (Jezyk == "eng")
 			{

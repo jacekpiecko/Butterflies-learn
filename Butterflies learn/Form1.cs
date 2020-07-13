@@ -1,14 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Xml.Linq;
 
 namespace Butterflies_learn
 {
@@ -23,17 +15,17 @@ namespace Butterflies_learn
 
 			InitializeComponent();
 		}
-		private readonly  Dictionary<string, bool> Instalacja_flag = new Dictionary<string, bool>();
-		private  string jezyk = null;
-		private readonly Dictionary<string, bool> Zadanie  = new Dictionary<string, bool>();
+		private readonly Dictionary<string, bool> Instalacja_flag = new Dictionary<string, bool>();
+		private string jezyk = null;
+		private readonly Dictionary<string, bool> Zadanie = new Dictionary<string, bool>();
 		private readonly int Cena = Properties.Settings.Default.Cena;
-		private  double Timer = 0.0;
+		private double Timer = 0.0;
 
 		private void Pokaz_ceny(bool Czy_pokazac)
 		{
-				Cena_ZA_Polski.Visible = Czy_pokazac;
-				Cena_Za_Angielski.Visible = Czy_pokazac;
-			
+			Cena_ZA_Polski.Visible = Czy_pokazac;
+			Cena_Za_Angielski.Visible = Czy_pokazac;
+
 		}
 
 		/// <summary>
@@ -108,16 +100,16 @@ namespace Butterflies_learn
 		/// <param name="e"></param>
 		private void Start_ENG_Click(object sender, EventArgs e)
 		{
-			if(Cena_Za_Angielski.Text != "Start")
+			if (Cena_Za_Angielski.Text != "Start")
 			{
-				 if (Cena_Za_Angielski.Text == "Free")
+				if (Cena_Za_Angielski.Text == "Free")
 				{
 					Instalacja_flag["Kup_Ang"] = true;
 					Cena_Za_Angielski.Text = "Start";
 				}
 				else
 				{
-					if(int.Parse(Cena_Za_Angielski.Text) <= int.Parse(Hajs.Text))
+					if (int.Parse(Cena_Za_Angielski.Text) <= int.Parse(Hajs.Text))
 					{
 						Instalacja_flag["Kup_Ang"] = true;
 						Cena_Za_Angielski.Text = "Start";
@@ -136,9 +128,9 @@ namespace Butterflies_learn
 				Zadanie["Unit_2"] = Properties.Settings.Default.Unity_2_kup;
 
 				Dodatkowe_Ustawienia dodatkowe_Ustawienia = new Dodatkowe_Ustawienia(Zadanie, jezyk);
-				dodatkowe_Ustawienia.Ustaw_Tekst(ref Zadanie_1, ref Zadanie_1_cena, ref  Zadanie_2, ref Zadanie_2_cena);
+				dodatkowe_Ustawienia.Ustaw_Tekst(ref Zadanie_1, ref Zadanie_1_cena, ref Zadanie_2, ref Zadanie_2_cena);
 			}
-			
+
 		}
 		/// <summary>
 		// początkowie łatowanie
@@ -165,7 +157,7 @@ namespace Butterflies_learn
 			if (Instalacja_flag["Kup_Ang"] == true)
 				Cena_Za_Angielski.Text = "Start";
 			else if (Cena > 0)
-				Cena_Za_Angielski.Text = (Cena* 500).ToString();
+				Cena_Za_Angielski.Text = (Cena * 500).ToString();
 			else
 				Cena_Za_Angielski.Text = "Free";
 
@@ -182,7 +174,7 @@ namespace Butterflies_learn
 		/// <param name="e"></param>
 		private void Butterflies_Learn_FormClosed(object sender, FormClosedEventArgs e)
 		{
-			Properties.Settings.Default.Kuponie_angielski =  Instalacja_flag["Kup_Ang"];
+			Properties.Settings.Default.Kuponie_angielski = Instalacja_flag["Kup_Ang"];
 			Properties.Settings.Default.Kuponie_Polska = Instalacja_flag["Kup_Pol"];
 			Properties.Settings.Default.Pieniadzie = Hajs.Text;
 			Properties.Settings.Default.Save();
@@ -225,7 +217,7 @@ namespace Butterflies_learn
 			{
 				Timer += 0.5;
 
-				if(Timer == 0)
+				if (Timer == 0)
 				{
 					Gruba_Startowa.Visible = false;
 					Lista_zadan.Visible = true;
