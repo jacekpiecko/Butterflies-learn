@@ -52,16 +52,17 @@
 			this.Liczba_Punktu = new System.Windows.Forms.Label();
 			this.Slownik = new System.Windows.Forms.Label();
 			this.Czas = new System.Windows.Forms.Label();
+			this.Slowo_do_napisania = new System.Windows.Forms.Label();
 			this.CzasKoncza = new System.Windows.Forms.Timer(this.components);
 			this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
 			this.Cena_Za_Angielski = new System.Windows.Forms.Label();
 			this.Cena_ZA_Polski = new System.Windows.Forms.Label();
-			this.Slowo_do_napisania = new System.Windows.Forms.Label();
 			this.Lista_zadan = new System.Windows.Forms.FlowLayoutPanel();
 			this.Zadanie_1 = new System.Windows.Forms.Label();
-			this.Zadanie_2 = new System.Windows.Forms.Label();
 			this.Zadanie_1_cena = new System.Windows.Forms.Label();
+			this.Zadanie_2 = new System.Windows.Forms.Label();
 			this.Zadanie_2_cena = new System.Windows.Forms.Label();
+			this.Tryb_Nauka = new System.Windows.Forms.CheckBox();
 			((System.ComponentModel.ISupportInitialize)(this.Start_POL)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.Start_ENG)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.Obrazek_Hajsu)).BeginInit();
@@ -119,7 +120,7 @@
 			// Hajs
 			// 
 			this.Hajs.AutoSize = true;
-			this.Hajs.Location = new System.Drawing.Point(50, 10);
+			this.Hajs.Location = new System.Drawing.Point(49, 10);
 			this.Hajs.Margin = new System.Windows.Forms.Padding(3, 10, 3, 0);
 			this.Hajs.Name = "Hajs";
 			this.Hajs.Size = new System.Drawing.Size(13, 13);
@@ -128,7 +129,7 @@
 			// 
 			// Obrazek_Hajs_Dodakowa
 			// 
-			this.Obrazek_Hajs_Dodakowa.Location = new System.Drawing.Point(187, 3);
+			this.Obrazek_Hajs_Dodakowa.Location = new System.Drawing.Point(184, 3);
 			this.Obrazek_Hajs_Dodakowa.Name = "Obrazek_Hajs_Dodakowa";
 			this.Obrazek_Hajs_Dodakowa.Size = new System.Drawing.Size(25, 25);
 			this.Obrazek_Hajs_Dodakowa.TabIndex = 15;
@@ -137,7 +138,7 @@
 			// Hajs_Dodakowa
 			// 
 			this.Hajs_Dodakowa.AutoSize = true;
-			this.Hajs_Dodakowa.Location = new System.Drawing.Point(223, 10);
+			this.Hajs_Dodakowa.Location = new System.Drawing.Point(220, 10);
 			this.Hajs_Dodakowa.Margin = new System.Windows.Forms.Padding(3, 10, 3, 0);
 			this.Hajs_Dodakowa.Name = "Hajs_Dodakowa";
 			this.Hajs_Dodakowa.Size = new System.Drawing.Size(13, 13);
@@ -190,7 +191,7 @@
 			this.Gruba_Startowa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.02156F));
 			this.Gruba_Startowa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.97844F));
 			this.Gruba_Startowa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 144F));
-			this.Gruba_Startowa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 78F));
+			this.Gruba_Startowa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81F));
 			this.Gruba_Startowa.Controls.Add(this.Sprawc, 1, 2);
 			this.Gruba_Startowa.Controls.Add(this.TlumaczeniePrzezUrzytkowinka, 1, 1);
 			this.Gruba_Startowa.Controls.Add(this.Inny_jezyk, 0, 1);
@@ -213,24 +214,22 @@
 			// 
 			// Sprawc
 			// 
-			this.Sprawc.Location = new System.Drawing.Point(303, 81);
+			this.Sprawc.Location = new System.Drawing.Point(302, 81);
 			this.Sprawc.Name = "Sprawc";
 			this.Sprawc.Size = new System.Drawing.Size(78, 27);
 			this.Sprawc.TabIndex = 3;
 			this.Sprawc.Text = "dalej";
 			this.Sprawc.UseVisualStyleBackColor = true;
-			this.Sprawc.Visible = false;
 			// 
 			// TlumaczeniePrzezUrzytkowinka
 			// 
 			this.TlumaczeniePrzezUrzytkowinka.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-			this.TlumaczeniePrzezUrzytkowinka.Location = new System.Drawing.Point(303, 31);
+			this.TlumaczeniePrzezUrzytkowinka.Location = new System.Drawing.Point(302, 31);
 			this.TlumaczeniePrzezUrzytkowinka.Multiline = true;
 			this.TlumaczeniePrzezUrzytkowinka.Name = "TlumaczeniePrzezUrzytkowinka";
 			this.TlumaczeniePrzezUrzytkowinka.Size = new System.Drawing.Size(177, 32);
 			this.TlumaczeniePrzezUrzytkowinka.TabIndex = 0;
 			this.TlumaczeniePrzezUrzytkowinka.TabStop = false;
-			this.TlumaczeniePrzezUrzytkowinka.Visible = false;
 			// 
 			// Inny_jezyk
 			// 
@@ -245,7 +244,7 @@
 			// dodawanie_hajsu
 			// 
 			this.dodawanie_hajsu.AutoSize = true;
-			this.dodawanie_hajsu.Location = new System.Drawing.Point(580, 88);
+			this.dodawanie_hajsu.Location = new System.Drawing.Point(577, 88);
 			this.dodawanie_hajsu.Margin = new System.Windows.Forms.Padding(3, 10, 3, 0);
 			this.dodawanie_hajsu.Name = "dodawanie_hajsu";
 			this.dodawanie_hajsu.Size = new System.Drawing.Size(13, 13);
@@ -257,7 +256,7 @@
 			this.Grupa_serca.Controls.Add(this.Serce_1);
 			this.Grupa_serca.Controls.Add(this.Serce_2);
 			this.Grupa_serca.Controls.Add(this.Serce_3);
-			this.Grupa_serca.Location = new System.Drawing.Point(580, 31);
+			this.Grupa_serca.Location = new System.Drawing.Point(577, 31);
 			this.Grupa_serca.Name = "Grupa_serca";
 			this.Grupa_serca.Size = new System.Drawing.Size(138, 44);
 			this.Grupa_serca.TabIndex = 7;
@@ -292,7 +291,7 @@
 			// Liczba_Punktu
 			// 
 			this.Liczba_Punktu.AutoSize = true;
-			this.Liczba_Punktu.Location = new System.Drawing.Point(724, 28);
+			this.Liczba_Punktu.Location = new System.Drawing.Point(721, 28);
 			this.Liczba_Punktu.Name = "Liczba_Punktu";
 			this.Liczba_Punktu.Size = new System.Drawing.Size(13, 13);
 			this.Liczba_Punktu.TabIndex = 4;
@@ -302,7 +301,7 @@
 			// 
 			this.Slownik.AutoSize = true;
 			this.Slownik.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-			this.Slownik.Location = new System.Drawing.Point(580, 0);
+			this.Slownik.Location = new System.Drawing.Point(577, 0);
 			this.Slownik.Name = "Slownik";
 			this.Slownik.Size = new System.Drawing.Size(40, 18);
 			this.Slownik.TabIndex = 14;
@@ -312,16 +311,26 @@
 			// Czas
 			// 
 			this.Czas.AutoSize = true;
-			this.Czas.Location = new System.Drawing.Point(724, 78);
+			this.Czas.Location = new System.Drawing.Point(721, 78);
 			this.Czas.Name = "Czas";
 			this.Czas.Size = new System.Drawing.Size(22, 13);
 			this.Czas.TabIndex = 5;
 			this.Czas.Text = "0.0";
 			// 
+			// Slowo_do_napisania
+			// 
+			this.Slowo_do_napisania.AutoSize = true;
+			this.Slowo_do_napisania.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+			this.Slowo_do_napisania.Location = new System.Drawing.Point(302, 0);
+			this.Slowo_do_napisania.Name = "Slowo_do_napisania";
+			this.Slowo_do_napisania.Size = new System.Drawing.Size(40, 18);
+			this.Slowo_do_napisania.TabIndex = 15;
+			this.Slowo_do_napisania.Text = "tekst";
+			// 
 			// CzasKoncza
 			// 
-			this.CzasKoncza.Enabled = true;
-			this.CzasKoncza.Interval = 1000;
+			this.CzasKoncza.Interval = 500;
+			this.CzasKoncza.Tick += new System.EventHandler(this.CzasKoncza_Tick);
 			// 
 			// tableLayoutPanel1
 			// 
@@ -329,7 +338,7 @@
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.40541F));
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 74.5946F));
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 62F));
 			this.tableLayoutPanel1.Controls.Add(this.Obrazek_Hajsu, 0, 0);
 			this.tableLayoutPanel1.Controls.Add(this.Hajs, 1, 0);
 			this.tableLayoutPanel1.Controls.Add(this.Obrazek_Hajs_Dodakowa, 2, 0);
@@ -368,22 +377,13 @@
 			this.Cena_ZA_Polski.Text = "zablokowany";
 			this.Cena_ZA_Polski.Visible = false;
 			// 
-			// Slowo_do_napisania
-			// 
-			this.Slowo_do_napisania.AutoSize = true;
-			this.Slowo_do_napisania.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-			this.Slowo_do_napisania.Location = new System.Drawing.Point(303, 0);
-			this.Slowo_do_napisania.Name = "Slowo_do_napisania";
-			this.Slowo_do_napisania.Size = new System.Drawing.Size(40, 18);
-			this.Slowo_do_napisania.TabIndex = 15;
-			this.Slowo_do_napisania.Text = "tekst";
-			// 
 			// Lista_zadan
 			// 
 			this.Lista_zadan.Controls.Add(this.Zadanie_1);
 			this.Lista_zadan.Controls.Add(this.Zadanie_1_cena);
 			this.Lista_zadan.Controls.Add(this.Zadanie_2);
 			this.Lista_zadan.Controls.Add(this.Zadanie_2_cena);
+			this.Lista_zadan.Controls.Add(this.Tryb_Nauka);
 			this.Lista_zadan.Location = new System.Drawing.Point(20, 15);
 			this.Lista_zadan.Name = "Lista_zadan";
 			this.Lista_zadan.Size = new System.Drawing.Size(93, 104);
@@ -400,15 +400,6 @@
 			this.Zadanie_1.Text = "label1";
 			this.Zadanie_1.Click += new System.EventHandler(this.Zadanie_1_Click);
 			// 
-			// Zadanie_2
-			// 
-			this.Zadanie_2.AutoSize = true;
-			this.Zadanie_2.Location = new System.Drawing.Point(3, 13);
-			this.Zadanie_2.Name = "Zadanie_2";
-			this.Zadanie_2.Size = new System.Drawing.Size(35, 13);
-			this.Zadanie_2.TabIndex = 1;
-			this.Zadanie_2.Text = "label2";
-			// 
 			// Zadanie_1_cena
 			// 
 			this.Zadanie_1_cena.AutoSize = true;
@@ -419,6 +410,15 @@
 			this.Zadanie_1_cena.Text = "label1";
 			this.Zadanie_1_cena.Click += new System.EventHandler(this.Zadanie_1_Click);
 			// 
+			// Zadanie_2
+			// 
+			this.Zadanie_2.AutoSize = true;
+			this.Zadanie_2.Location = new System.Drawing.Point(3, 13);
+			this.Zadanie_2.Name = "Zadanie_2";
+			this.Zadanie_2.Size = new System.Drawing.Size(35, 13);
+			this.Zadanie_2.TabIndex = 1;
+			this.Zadanie_2.Text = "label2";
+			// 
 			// Zadanie_2_cena
 			// 
 			this.Zadanie_2_cena.AutoSize = true;
@@ -427,6 +427,16 @@
 			this.Zadanie_2_cena.Size = new System.Drawing.Size(35, 13);
 			this.Zadanie_2_cena.TabIndex = 3;
 			this.Zadanie_2_cena.Text = "label2";
+			// 
+			// Tryb_Nauka
+			// 
+			this.Tryb_Nauka.AutoSize = true;
+			this.Tryb_Nauka.Location = new System.Drawing.Point(3, 29);
+			this.Tryb_Nauka.Name = "Tryb_Nauka";
+			this.Tryb_Nauka.Size = new System.Drawing.Size(82, 17);
+			this.Tryb_Nauka.TabIndex = 28;
+			this.Tryb_Nauka.Text = "Tryb Nauka";
+			this.Tryb_Nauka.UseVisualStyleBackColor = true;
 			// 
 			// Butterflies_Learn
 			// 
@@ -502,6 +512,7 @@
 		private System.Windows.Forms.Label Zadanie_2;
 		private System.Windows.Forms.Label Zadanie_1_cena;
 		private System.Windows.Forms.Label Zadanie_2_cena;
+		private System.Windows.Forms.CheckBox Tryb_Nauka;
 	}
 }
 
