@@ -1,0 +1,11 @@
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\bin\Debug\kontorla.dll
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\bin\Debug\kontorla.pdb
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\bin\Debug\ENG.dll
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\bin\Debug\PLN.dll
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\bin\Debug\ENG.pdb
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\bin\Debug\PLN.pdb
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\obj\Debug\kontorla.csprojAssemblyReference.cache
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\obj\Debug\kontorla.csproj.CoreCompileInputs.cache
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\obj\Debug\kontorla.csproj.CopyComplete
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\obj\Debug\kontorla.dll
+D:\jezyk programowania\C#\Butterflies-learn\kontorla\obj\Debug\kontorla.pdb

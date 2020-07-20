@@ -1,0 +1,6 @@
+D:\jezyk programowania\C#\Butterflies-learn\PLN\bin\Debug\PLN.dll
+D:\jezyk programowania\C#\Butterflies-learn\PLN\bin\Debug\PLN.pdb
+D:\jezyk programowania\C#\Butterflies-learn\PLN\obj\Debug\PLN.csprojAssemblyReference.cache
+D:\jezyk programowania\C#\Butterflies-learn\PLN\obj\Debug\PLN.csproj.CoreCompileInputs.cache
+D:\jezyk programowania\C#\Butterflies-learn\PLN\obj\Debug\PLN.dll
+D:\jezyk programowania\C#\Butterflies-learn\PLN\obj\Debug\PLN.pdb

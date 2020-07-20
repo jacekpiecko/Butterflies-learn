@@ -18,3 +18,17 @@ D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\obj\Debug\Butterfl
 D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\obj\Debug\Butterflies learn.csproj.CoreCompileInputs.cache
 D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\obj\Debug\Butterflies learn.exe
 D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\obj\Debug\Butterflies learn.pdb
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\bin\Debug\Resources\Image1.png
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\bin\Debug\Resources\flaga eng.png
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\bin\Debug\Resources\flaga pl.png
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\bin\Debug\Resources\nim.png
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\bin\Debug\Resources\pelny.png
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\bin\Debug\Resources\serce.png
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\bin\Debug\Resources\serce2.png
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\bin\Debug\kontorla.dll
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\bin\Debug\ENG.dll
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\bin\Debug\PLN.dll
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\bin\Debug\kontorla.pdb
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\bin\Debug\ENG.pdb
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\bin\Debug\PLN.pdb
+D:\jezyk programowania\C#\Butterflies-learn\Butterflies learn\obj\Debug\Butterflies learn.csproj.CopyComplete
