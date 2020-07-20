@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Eng\Eng.csproj" />
     <ProjectReference Include="..\PLN\PLN.csproj" />
   </ItemGroup>
 
