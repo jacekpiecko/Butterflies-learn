@@ -186,6 +186,7 @@ namespace Butterflies_learn
 		/// <param name="e"></param>
 		private void Zadanie_1_Click(object sender, EventArgs e)
 		{
+			//sprawdza czy jest zaznaczonie Tryb nauki
 			if (!Tryb_Nauka.Checked)
 			{
 				Timer = 20.0;
@@ -195,14 +196,21 @@ namespace Butterflies_learn
 			{
 				Czas.Text = "brak :)";
 			}
+
+			//włacza wszystko
 			Gruba_Startowa.Visible = true;
 			Lista_zadan.Visible = false;
 			CzasKoncza.Enabled = true;
-
 		}
-
+		/// <summary>
+		/// oblicza czas
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		private void CzasKoncza_Tick(object sender, EventArgs e)
 		{
+			//oblicza czas do koncza
+			//odejmuje o 0,5
 			if (Timer > 0.0)
 			{
 				Timer -= 0.5;
@@ -213,6 +221,8 @@ namespace Butterflies_learn
 					Timer = -2;
 				}
 			}
+
+			//oblicza czas do przejscia do menu
 			else if (Timer < 0.0)
 			{
 				Timer += 0.5;
