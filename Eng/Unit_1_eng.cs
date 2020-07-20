@@ -1,4 +1,7 @@
-﻿namespace Eng
+﻿using System;
+using System.Linq;
+
+namespace Eng
 {
 	public class Unit_1_eng
 	{
@@ -49,61 +52,112 @@
 		/// <returns></returns>
 		private string Slowa_(byte slowa)
 		{
-			return slowa switch
-			{
 
-				1 => "and",
-				2 => "to",
-				3 => "in",
-				4 => "is",
-				5 => "you",
-				6 => "that",
-				7 => "it",
-				8 => "he",
-				9 => "was",
-				10 => "for",
-				11 => "on",
-				12 => "are",
-				13 => "as",
-				14 => "with",
-				15 => "his",
-				16 => "they",
-				17 => "I",
-				18 => "at",
-				19 => "be",
-				20 => "this",
-				21 => "had",
-				22 => "have",
-				23 => "from",
-				24 => "or",
-				25 => "one",
-				26 => "by",
-				27 => "word",
-				28 => "but",
-				29 => "not",
-				30 => "what",
-				31 => "all",
-				32 => "were",
-				33 => "we",
-				34 => "when",
-				35 => "your",
-				36 => "can",
-				37 => "said",
-				38 => "there",
-				39 => "use",
-				40 => "each",
-				41 => "which",
-				42 => "she",
-				43 => "do",
-				44 => "how",
-				45 => "their",
-				46 => "if",
-				47 => "will",
-				48 => "up",
-				49 => "other",
-				50 => "about",
-				_ => "" // wysyła błąd
-			};
+			 switch(slowa)
+			{
+				case 1:
+					return "and";
+				case 2:
+					return "to";
+				case 3:
+					return "in";
+				case 4:
+					return "is";
+				case 5:
+					return "you";
+				case 6:
+					return "that";
+				case 7:
+					return "it";
+				case 8:
+					return "he";
+				case 9:
+					return "was";
+				case 10:
+					return   "for";
+				case 11:
+					return   "on";
+				case 12:
+					return   "are";
+				case 13:
+					return   "as";
+				case 14:
+					return "with";
+				case 15:
+					return "his";
+				case 16:
+					return "they";
+				case 17:
+					return "I";
+				case 18:
+					return "at";
+				case 19:
+					return "be";
+				case 20:
+					return "this";
+				case 21:
+					return "had";
+				case 22:
+					return "have";
+				case 23:
+					return "from";
+				case 24:
+					return "or";
+				case 25:
+					return "one";
+				case 26:
+					return "by";
+				case 27:
+					return "word";
+				case 28:
+					return "but";
+				case 29:
+					return "not";
+				case 30:
+					return "what";
+				case 31:
+					return "all";
+				case 32:
+					return "were";
+				case 33:
+					return "we";
+				case 34:
+					return "when";
+				case 35:
+					return "your";
+				case 36:
+					return "can";
+				case 37:
+					return "said";
+				case 38:
+					return "there";
+				case 39:
+					return "use";
+				case 40:
+					return "each";
+				case 41:
+					return "which";
+				case 42:
+					return "she";
+				case 43:
+					return "do";
+				case 44:
+					return "how";
+				case 45:
+					return "their";
+				case 46:
+					return "if";
+				case 47:
+					return "will";
+				case 48:
+					return "up";
+				case 49:
+					return "other";
+				case 50:
+					return "about";
+				default:
+					return ""; // wysyła błąd
+			}
 		}
 
 	}

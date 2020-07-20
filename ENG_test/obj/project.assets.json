@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\jezyk programowania\\C#\\Butterflies-learn\\ENG_test\\ENG.csproj",
-      "projectName": "ENG",
-      "projectPath": "D:\\jezyk programowania\\C#\\Butterflies-learn\\ENG_test\\ENG.csproj",
+      "projectUniqueName": "D:\\jezyk programowania\\C#\\Butterflies-learn\\ENG_test\\ENG_test.csproj",
+      "projectName": "ENG_test",
+      "projectPath": "D:\\jezyk programowania\\C#\\Butterflies-learn\\ENG_test\\ENG_test.csproj",
       "packagesPath": "C:\\Users\\jacek\\.nuget\\packages\\",
       "outputPath": "D:\\jezyk programowania\\C#\\Butterflies-learn\\ENG_test\\obj\\",
       "projectStyle": "PackageReference",
