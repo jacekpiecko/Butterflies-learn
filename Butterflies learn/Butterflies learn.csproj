@@ -144,9 +144,17 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ENG\ENG.csproj">
+      <Project>{db64a9fd-697f-4b17-965e-1f99aeff49fb}</Project>
+      <Name>ENG</Name>
+    </ProjectReference>
     <ProjectReference Include="..\kontorla\kontorla.csproj">
       <Project>{446d4cd2-bdb3-4039-9e43-74be9c521a57}</Project>
       <Name>kontorla</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PLN\PLN.csproj">
+      <Project>{411f0c59-a835-43f2-af08-55ec55c23054}</Project>
+      <Name>PLN</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

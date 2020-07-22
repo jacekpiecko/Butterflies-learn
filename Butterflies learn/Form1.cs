@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using Eng;
+using PLN;
 
 namespace Butterflies_learn
 {
@@ -186,6 +188,9 @@ namespace Butterflies_learn
 		/// <param name="e"></param>
 		private void Zadanie_1_Click(object sender, EventArgs e)
 		{
+			//deklakuje slownik
+			Unit_1_eng unit_1_Eng = new Unit_1_eng();
+			Slowo_do_napisania.Text = unit_1_Eng.Slowa();
 			//sprawdza czy jest zaznaczonie Tryb nauki
 			if (!Tryb_Nauka.Checked)
 			{
@@ -195,6 +200,10 @@ namespace Butterflies_learn
 			else
 			{
 				Czas.Text = "brak :)";
+				///deklakuje slownik 
+				Unit_1_eng_pl unit_1_Eng_Pl = new Unit_1_eng_pl();
+				//dodaja słowo do slownik
+				Slownik.Text = unit_1_Eng_Pl.Slowa(unit_1_Eng.A);
 			}
 
 			//włacza wszystko

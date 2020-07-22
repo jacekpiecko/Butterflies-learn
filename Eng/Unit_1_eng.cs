@@ -12,7 +12,7 @@ namespace Eng
 		/// ustawia radomowie słowo
 		/// </summary>
 		/// <returns></returns>
-		public string Slowna()
+		public string Slowa()
 		{
 			//radomowa liczba do 50
 			A = (byte)random.Next(50);
@@ -25,7 +25,7 @@ namespace Eng
 		/// </summary>
 		/// <param name="liczba"></param>
 		/// <returns></returns>
-		public string Slowna(byte liczba)
+		public string Slowa(byte liczba)
 		{
 			// ustawia liczbe do pamiecy
 			A = liczba;
