@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 using Eng;
+
+using Kontorla;
+
 using PLN;
 
 namespace Butterflies_learn
@@ -22,7 +25,8 @@ namespace Butterflies_learn
 		private readonly Dictionary<string, bool> Zadanie = new Dictionary<string, bool>();
 		private readonly int Cena = Properties.Settings.Default.Cena;
 		private double Timer = 0.0;
-
+		private readonly Unit_1_eng_pl unit_1_Eng_Pl = new Unit_1_eng_pl();
+		private readonly Unit_1_eng unit_1_Eng = new Unit_1_eng();
 		private void Pokaz_ceny(bool Czy_pokazac)
 		{
 			Cena_ZA_Polski.Visible = Czy_pokazac;
@@ -123,6 +127,7 @@ namespace Butterflies_learn
 			{
 				Lista_zadan.Visible = true;
 				Grupa_Menu_Flag.Visible = false;
+				Slownik.Visible = false;
 				Pokaz_ceny(false);
 
 				jezyk = "eng";
@@ -188,9 +193,8 @@ namespace Butterflies_learn
 		/// <param name="e"></param>
 		private void Zadanie_1_Click(object sender, EventArgs e)
 		{
-			//deklakuje slownik
-			Unit_1_eng unit_1_Eng = new Unit_1_eng();
-			Slowo_do_napisania.Text = unit_1_Eng.Slowa();
+
+			
 			//sprawdza czy jest zaznaczonie Tryb nauki
 			if (!Tryb_Nauka.Checked)
 			{
@@ -200,11 +204,12 @@ namespace Butterflies_learn
 			else
 			{
 				Czas.Text = "brak :)";
-				///deklakuje slownik 
-				Unit_1_eng_pl unit_1_Eng_Pl = new Unit_1_eng_pl();
+				Slownik.Visible = true;
 				//dodaja słowo do slownik
 				Slownik.Text = unit_1_Eng_Pl.Slowa(unit_1_Eng.A);
 			}
+			if (Zadanie_1.Text == "Unit 1 -")
+				Slowo_do_napisania.Text = unit_1_Eng.Slowa();
 
 			//włacza wszystko
 			Gruba_Startowa.Visible = true;
@@ -243,6 +248,22 @@ namespace Butterflies_learn
 					Grupa_Menu_Flag.Visible = false;
 					Pokaz_ceny(false);
 				}
+			}
+		}
+
+		/// <summary>
+		/// robi kiedy klikniesz dalaj
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void Sprawc_Click(object sender, EventArgs e)
+		{
+			Kontorla_jezyka kontorla = new Kontorla_jezyka();
+			if(kontorla.Sprawcz_EngDoPOl(unit_1_Eng) == true)
+			{
+				Slowo_do_napisania.Text = unit_1_Eng.Slowa();
+				if (Tryb_Nauka.Checked)
+					Slownik.Text = unit_1_Eng_Pl.Slowa(unit_1_Eng.A);
 			}
 		}
 	}
